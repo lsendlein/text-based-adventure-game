@@ -1,0 +1,23 @@
+
+{
+    "name": "table",
+
+    "room_description": false,
+
+    "starting_loc": "foyer",
+
+    "current_loc": "foyer",
+
+    "look_description": "The small mahogany table contains a few knick-knacks that appear to have been placed here for decorative purposes. Decorating has never been your forte, so you don't consider them further.",
+
+    "synonyms":[],
+
+    "holdable": false,
+
+    "is_game_key": false,
+
+    "is_story_item": false,
+
+    "verbs": []
+
+}

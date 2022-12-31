@@ -1,0 +1,48 @@
+
+{
+    // the name of the item as recognized by the game engine
+    "name": "comfortable chair",
+
+    // text (if any) that is displayed as part of the general room description. 
+    "room_description": false,
+
+    // room the items is located in when the game starts
+    "starting_loc": "library",
+
+    // room the item is currently located in
+    "current_loc": "library",
+
+    // text (if any) that is displayed when player looks at the item
+    "look_description": "Your eyes are immediately drawn to the beautiful specimen in the center of the room. Those cushions, fluffed to absolute perfection. The high quality leather exudes the most inviting scent you’ve ever had the pleasure of smelling. You try to hold yourself back, but you just can't; you must sit in this chair.",
+
+    // synonyms for the item that are recognized by the parser
+    "synonyms":["chair", "recliner"],
+
+    // can the item be picked up?
+    "holdable": false,
+
+    // is the item a key to solve a puzzle
+    "is_game_key": false,
+
+    // does the item need to be interacted with in order to understand the story
+    "is_story_item": false,
+
+    // other verbs that can be used to interact with the chair
+    "verbs": [
+        {
+            "sit": {
+
+                // text that is displayed when the verb is used with the item
+                "text": "As you sit in the chair, you feel at peace; this chair was just made for you. The only thing taking you out of chair nirvana is something poking your thigh. You reach down and rummage in the cushions before pulling out the cause: a silver coin. You pick the coin up and put it in your pocket.",
+                
+                // flags (if any) that are set when the verb is used with the item
+                "flag": [1, true]
+            },
+
+            "jump": {
+                "text": "Hey, no jumping on the furniture!"
+            }
+        }
+    ]
+
+}
